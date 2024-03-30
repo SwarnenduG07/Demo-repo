@@ -14,3 +14,13 @@ const ans = promisefiedMyWonsetTimeout(10000);
 ans.then(function() {
 	console.log("Time out is done");
         });
+
+
+//Async Await
+ async function main() {
+let value = await promisefiedMyWonsetTimeout()
+	 console.log(value);
+ }
+
+main();
+console.log('After main');
