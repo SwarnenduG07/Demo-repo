@@ -4,7 +4,7 @@ function promisefiedMyWonsetTimeout(duration) {
 
 			resolve();
 
-		}, deration);
+		}, duration);
 
 	});
 	return p;
